@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mô Hình 3D</title>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer@1.9.0"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            margin-top: 20px;
+        }
+        model-viewer {
+            width: 100%;
+            height: 80vh;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Khám Phá Mô Hình 3D</h1>
+    <!-- S? d?ng model-viewer ?? hi?n th? mô hình 3D -->
+    <model-viewer src="your_model.glb" alt="Mô hình 3D" auto-rotate camera-controls background-color="#ffffff"></model-viewer>
+</body>
+</html>
